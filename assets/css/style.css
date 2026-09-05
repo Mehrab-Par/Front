@@ -12,3 +12,19 @@
         align-items: center !important;
     }
 }
+@media(max-width:600px){
+    #pagination_container{
+        width: 100%;
+    }
+}
+
+.users_list_item.active .users_list_arrow_icon{
+    transform: rotate(180deg);
+}
+.users_list_item.active, .users_list_item.active .collapsible-header{
+    background-color: #e3f2fd ;
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #bbdefb;
+}
