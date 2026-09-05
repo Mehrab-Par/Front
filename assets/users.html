@@ -13,10 +13,10 @@
 
 <body>
 
-<!---- navbar section------ start ------------------------->
+    <!---- navbar section------ start ------------------------->
     <nav class="white z-depth-0 top_navbar">
         <div class="nav-wrapper">
-            <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
+            <a href="#!" class="blue-text hide-on-med-and-up">User management</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
                     class="material-icons">menu</i></a>
             <ul class="hide-on-med-and-down">
@@ -49,20 +49,35 @@
         <li><a class="waves-effect" href="/assets/users.html">User</a></li>
 
     </ul>
-<!---- navbar section ------ end ------------------>
+    <!---- navbar section ------ end ------------------>
 
 
 
 
-<!---- home section ------ start ------------------------->
-<section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
-    <img src="/assets/images/5.png" alt="" class="w-full max-w-200 filter_shadow">
-    <a href="https://codeyad.com" target="_blank" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 mb-10 rounded_pill">Programming tutorial</a>
-    <a href="/assets/users.html" target="_blank" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 mb-10 rounded_pill">Users manager</a>
-</section>
+    <!---- content section ------ start ------------------------->
+    <section id="top_actions_section" class="row">
+        <!-- add button ------------>
+        <div class="p-l-10 p-r-10 col s12 m3 l2">
+            <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c ">
+                <i class="material-icons m-r-5">add</i>
+                Add user
+            </button>
+        </div>
+        <!-- search section --------->
+        <div class="row col s12 m9 l8">
+            <div class="input-field col s12">
+                <input id="search" type="text" class="validate">
+                <label for="disabled">
+                    <i class="material-icons pos-relative top-7">search</i>
+                    Search
+                </label>
+            </div>
+        </div>
+        <div class="col l2 hide-on-med-and-down">
 
-
-<!---- home section ------ end ------------------>
+        </div>
+    </section>
+    <!---- content section ------ end ------------------>
 
 
 

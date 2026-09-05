@@ -1,3 +1,14 @@
 *{
     font-family: Comic Sans MS;
 }
+
+@media(min-width:600px){
+    .top_navbar{
+    box-shadow: 0 0 50px gray !important;
+    }
+
+    #top_actions_section{
+        display: flex !important;
+        align-items: center !important;
+    }
+}
