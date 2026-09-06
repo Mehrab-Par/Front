@@ -16,15 +16,46 @@
     #pagination_container{
         width: 100%;
     }
+    .container{
+        width: 100%;
+    }
 }
 
 .users_list_item.active .users_list_arrow_icon{
     transform: rotate(180deg);
 }
-.users_list_item.active, .users_list_item.active .collapsible-header{
+.users_list_item.active{
     background-color: #e3f2fd ;
+}
+.users_list_item.active .collapsible-header{
+    background-color: #bbdefb;
 }
 
 table.highlight > tbody > tr:hover {
   background-color: #bbdefb;
+}
+
+.add_user_modal_back{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 998;
+}
+.add_user_modal{
+    position: fixed;
+    height: 70vh;
+    background-color: white;
+    bottom: -70vh;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.add_user_modal.show{
+    bottom: 0;
+    box-shadow: 0 0 10px #1e88e5;
 }
