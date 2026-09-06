@@ -1,5 +1,6 @@
 *{
     font-family: Comic Sans MS;
+    /* direction: rtl; */
 }
 
 @media(min-width:600px){
